@@ -32,12 +32,14 @@ export default{
         axios.get('http://covid19.soficoop.com/country/us').then(response=>{
         this.results=response.data.snapshots
         var dic;
+        let mySet = new Set();
         for (dic of this.results) {
-            
-            
+            var day = dic['timestamp'].substring(8,10)
+            if (!mySet.has(day)) {
+            mySet.add(day)
             this.chartdata.datasets[0].data.push(dic['cases'])
             this.chartdata.labels.push(dic['timestamp'].substring(0,10)+'')
-            
+            }
         }
         this.renderChart(this.chartdata,this.options)
             
