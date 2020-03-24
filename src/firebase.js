@@ -8,8 +8,8 @@ const firebaseConfig = {
     projectId: "axios-803df",
     storageBucket: "axios-803df.appspot.com",
     messagingSenderId: "195609141993",
-    appId: "1:195609141993:web:7310f653a2493bb7688678",
-    measurementId: "G-DM5QVXDNGP"
+    appId: "1:195609141993:web:255edabd9659aa0d688678",
+    measurementId: "G-68SBFX5DW2"
 
   };
   
