@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 footer{
-    background:rgb(122, 63, 100);
+    background:rgb(255, 33, 174);
     padding:10px;
     border-style: solid;
     border-color:black;

@@ -31,7 +31,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header{
-    background:rgb(63, 100, 122);
+    background:rgb(255, 33, 174);
     padding:6px;
     border-style: solid;
     border-color:black;
@@ -39,11 +39,11 @@ header{
 }
 h1{
     color:ivory;
-    background: rgb(122, 63, 100);
+    background: rgb(255, 33, 174);
     font-size: 30px;
 }
 nav{
-    background: rgb(122, 63, 100);
+    background:rgb(255, 33, 174);
     padding: 14px 0;
     margin-bottom: 40px;
 }
