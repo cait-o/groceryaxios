@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
+        uses: actions/checkout@repo
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
