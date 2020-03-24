@@ -20,7 +20,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name : Checkout Repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
       - name: Build
@@ -37,7 +37,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --project bt3103-2020 --only hosting
+          args: deploy --project vue-firebase --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
