@@ -31,7 +31,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header{
-    background:rgb(122, 63, 100);
+    background:rgb(63, 100, 122);
     padding:6px;
     border-style: solid;
     border-color:black;
